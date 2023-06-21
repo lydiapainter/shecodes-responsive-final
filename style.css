@@ -27,8 +27,16 @@
     align-items: center;
   }
 
+  h1 {
+    font-size: 18px;
+  }
+
   h4 {
     font-size: 18px;
+  }
+
+  nav li {
+    font-size: 14px;
   }
 
   .btn {
@@ -100,6 +108,7 @@ nav li {
   list-style: none;
   line-height: 42px;
   margin-left: 15px;
+  font-size: 20px;
 }
 
 nav ul {
