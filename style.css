@@ -27,10 +27,6 @@
     align-items: center;
   }
 
-  h1 {
-    font-size: 18px;
-  }
-
   h4 {
     font-size: 18px;
   }
@@ -111,6 +107,12 @@ nav li {
   font-size: 20px;
 }
 
+@media (max-width: 576px) {
+  nav li {
+    font-size: 14px;
+  }
+}
+
 nav ul {
   margin: 0;
   padding: 0;
@@ -126,6 +128,12 @@ h3 {
 h1 {
   font-size: 96px;
   padding-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 36px;
+  }
 }
 
 h2 {
